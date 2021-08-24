@@ -3,7 +3,7 @@
 ### Version 2 : Add build tasks
 ### Version 3 : Publish the project
 ### Version 4 : Refactor common variables
-  trigger:
+trigger:
 - '*'
 pool:
   vmImage: ubuntu-20.04
