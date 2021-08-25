@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/bigleux/SpaceGameWeb/_apis/build/status/Bigleux.mslearn-tailspin-spacegame-web?branchName=main)](https://dev.azure.com/bigleux/SpaceGameWeb/_build/latest?definitionId=6&branchName=main)
 
 # Contributing
 
