@@ -5,6 +5,7 @@
 ### Version 4 : Refactor common variables
 ### Version 5 : Support build configurations with a template 
 ### Version 6 : Run and publish unit tests 
+### Version 7 : Coderage test
 
 trigger:
 - '*'
@@ -49,6 +50,16 @@ steps:
   inputs:
     command: restore
     projects: '**/*.csproj'
+
+
+### Coverage test tool
+
+- task: DotNetCoreCLI@2
+  displayName: Install .NET tools from local manifest
+  inputs:
+    command: custom
+    custom: tool
+    arguments: restore
 
 ###  
 ### Support build configurations with a template 
