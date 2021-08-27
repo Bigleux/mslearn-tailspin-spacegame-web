@@ -1,5 +1,7 @@
 ### YamlMime:Yaml
 ### Modèle pour Pipeline pour répéter les deux tâches Release et Debug.
+### Ajout de la version 6 unit-tests
+
 parameters:
   buildConfiguration: Release
 
