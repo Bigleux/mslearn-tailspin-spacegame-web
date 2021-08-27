@@ -62,6 +62,10 @@ steps:
   parameters:
     buildConfiguration: Release
 
+- template: templates/build.yml
+  parameters:
+    buildConfiguration: test
+
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
